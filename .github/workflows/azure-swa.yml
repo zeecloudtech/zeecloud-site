@@ -18,14 +18,34 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # Let the Azure SWA action do the Node install & Next build internally.
-      - name: Build & Deploy to Azure Static Web Apps (Next.js)
+      # Build the static export locally
+      - name: Use Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install & Build (Next.js static export)
+        run: |
+          npm ci
+          npm run build    # <-- next build (with output:'export' in next.config.js)
+        env:
+          CI: true
+
+      # (optional) show what's in the export
+      - name: List export contents
+        run: |
+          echo "Export tree (out/):"
+          ls -lah out
+          ls -lahR out | head -n 400
+
+      # Upload the 'out' folder to Static Web Apps
+      - name: Upload to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: upload
-          app_location: "/"                # your Next.js app root
-          # optional: force install & build commands if needed
-          app_build_command: "npm install && npm run build"
-          # DO NOT set output_location for SSR/SSG Next.js
+          app_location: /
+          api_location: ""          # no API — skip serverless build entirely
+          output_location: out      # IMPORTANT: deploy the static export
+          skip_api_build: true

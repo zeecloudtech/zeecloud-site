@@ -1,3 +1,4 @@
+'use client';
 export default function Privacy(){
   return (
     <main className="container py-10">

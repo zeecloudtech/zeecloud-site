@@ -26,7 +26,7 @@ jobs:
 
       - name: Install & Build (Next.js static export)
         run: |
-          npm ci
+          npm install --no-audit --no-fund
           npm run build    # <-- next build (with output:'export' in next.config.js)
         env:
           CI: true

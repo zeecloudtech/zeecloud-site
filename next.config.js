@@ -1,3 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = { output: 'export', trailingSlash: true };
-export default nextConfig;
+const nextConfig = {
+  images: { unoptimized: true }, // keep if you used next/image; otherwise you can remove
+};
+module.exports = nextConfig;

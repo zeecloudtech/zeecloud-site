@@ -27,7 +27,7 @@ jobs:
 
       - name: Install & Build (Next.js static export)
         run: |
-          npm ci
+          npm install
           npm run build
         env:
           CI: true

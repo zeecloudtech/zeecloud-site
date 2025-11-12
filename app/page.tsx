@@ -14,12 +14,12 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
           <p className="text-sm font-medium text-sky-700">ZeeCloud Technologies Inc.</p>
 
-          <h1 className="mt-3 max-w-4xl text-5xl font-extrabold leading-[1.05] tracking-tight text-slate-900 sm:text-6xl">
+          <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight leading-tight">
             Transforming Logistics and Enterprise Operations
             through AI and Cloud Intelligence.
           </h1>
 
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-700">
+          <p className="mt-6 max-w-2xl text-slate-600">
             We bridge AI research and real-world implementation—helping organizations
             automate logistics, modernize IT systems, and achieve digital transformation.
           </p>

@@ -6,11 +6,11 @@ import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 
 const links = [
-  { href: '/contact',  label: 'About' },      // Update to your real routes if needed
-  { href: '/divisions',label: 'Divisions' },
-  { href: '/projects', label: 'Projects' },
-  { href: '/insights', label: 'Insights' },
-  { href: '/contact',  label: 'Contact' },
+  { href: '/company',   label: 'Company' },
+  { href: '/divisions', label: 'Our Divisions' },
+  { href: '/projects',  label: 'Innovation' },
+  { href: '/insights',  label: 'Research' },
+  { href: '/contact',   label: 'Connect' },
 ];
 
 export default function NavBar() {

@@ -2,19 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Put your @apply rules inside a layer */
-@layer components {
-  .card {
-    @apply bg-white border border-gray-200 rounded-2xl shadow-sm p-6;
-  }
+/* sensible defaults */
+html, body { height: 100%; }
+body { background-color: #ffffff; }
 
-  .badge {
-    @apply inline-flex items-center gap-1 px-2 py-1 text-xs font-medium rounded-full
-           bg-blue-50 text-blue-700 ring-1 ring-inset ring-blue-200;
-  }
-
-  .btn-primary {
-    @apply inline-flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-white
-           hover:bg-blue-700 shadow-sm;
-  }
+/* small helpers for the hero buttons */
+.btn-primary {
+  @apply inline-flex items-center rounded-xl px-5 py-3 text-sm font-semibold text-white bg-sky-600 hover:bg-sky-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600;
+}
+.btn-secondary {
+  @apply inline-flex items-center rounded-xl px-5 py-3 text-sm font-semibold text-sky-700 ring-1 ring-sky-200 hover:bg-sky-50;
 }

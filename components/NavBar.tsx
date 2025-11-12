@@ -25,12 +25,12 @@ export default function NavBar() {
           {/* Logo + wordmark */}
           <Link href="/" className="flex items-center gap-2">
             <Image
-                  src="/assets/logo-mark.svg"
+                  src="/assets/logo.svg"
                   alt="ZeeCloud logo"
-                  width={40}
-                  height={40}
+                  width={36}
+                  height={36}
                   priority
-                  className="shrink-0 sm:w-[40px] w-[32px]"
+                  className="shrink-0"
                 />
                 <span className="ml-2 font-medium tracking-tight text-slate-900">
                   ZeeCloud Technologies

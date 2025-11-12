@@ -25,9 +25,9 @@ export default function Pillars() {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((it) => (
             <Link
-              key={it.title}
-              href={it.href}
-              className="group rounded-2xl border border-slate-200 p-5 transition-all hover:border-slate-300 hover:shadow-sm"
+                key={it.title}
+                href={it.href}
+                className="group rounded-2xl border border-slate-200 hover:border-slate-300/80 hover:shadow-md hover:scale-[1.02] transform transition duration-200 bg-white"
             >
               <h3 className="text-base font-semibold text-slate-900">{it.title}</h3>
               <p className="mt-1 text-sm text-slate-600">{it.desc}</p>

@@ -1,30 +1,26 @@
-import "./globals.css";
-import type { Metadata } from "next";
+import './globals.css';
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import NavBar from '@/components/NavBar';
+import Footer from '@/components/Footer';
+
+const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
-  title: "ZeeCloud Technologies Inc.",
-  description: "AI Innovation | Cloud Systems | Logistics Intelligence",
+  title: 'ZeeCloud Technologies Inc.',
+  description:
+    'AI innovation, cloud systems, and logistics intelligence. Transforming logistics and enterprise operations through AI and Cloud.',
+  icons: { icon: '/favicon.ico' }, // Add /public/favicon.ico if you have it
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className="antialiased text-slate-800">
-  {/* NAVBAR */}
-  <header className="sticky top-0 z-50 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60">
-    <nav className="mx-auto flex max-w-7xl items-center justify-end gap-6 px-6 py-3 text-sm font-medium text-slate-700">
-      <a href="/about">About</a>
-      <a href="/divisions">Divisions</a>
-      <a href="/projects">Projects</a>
-      <a href="/insights">Insights</a>
-      <a href="/contact">Contact</a>
-    </nav>
-  </header>
-
-  {/* PAGE CONTENT */}
-  {children}
-</body>
-
+    <html lang="en" className="h-full bg-white">
+      <body className={`${inter.className} text-slate-900 antialiased`}>
+        <NavBar />
+        <main className="relative">{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }

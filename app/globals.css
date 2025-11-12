@@ -36,7 +36,8 @@ body { background-color: #ffffff; }
 
   /* very soft diagonal tint */
   background:
-    linear-gradient(135deg, #e6f2f9 0%, #f9fcff 40%, transparent 60%);
+  linear-gradient(to right, rgba(2, 6, 23, .03) 1px, transparent 1px) 0 0/40px 40px,
+  linear-gradient(to bottom, rgba(2, 6, 23, .03) 1px, transparent 1px) 0 0/40px 40px;
 
   /* keep your nice radial/dot masking if you want */
   mask-image: radial-gradient(ellipse at 40% 20%, black 60%, transparent 70%);

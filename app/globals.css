@@ -44,5 +44,10 @@ body { background-color: #ffffff; }
     radial-gradient(1px 1px at 60px 60px, rgba(2,6,23,.22) 1px, transparent 1px);
   background-size: 80px 80px;
   animation: float-slow 12s ease-in-out infinite;
+
+  /* Add these two lines 👇 */
+  opacity: .22;
+  filter: contrast(105%);
 }
+
 

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import HeroBackdrop from '@/components/HeroBackdrop';
 import Pillars from '@/components/Pillars';
+import Reveal from '@/components/Reveal';
 
 export default function Home() {
   return (
@@ -41,7 +42,9 @@ export default function Home() {
       </section>
 
       {/* SUB-HERO PILLARS */}
-      <Pillars />
+      <Reveal>
+        <Pillars />
+      </Reveal>
     </>
   );
 }

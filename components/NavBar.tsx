@@ -30,7 +30,7 @@ export default function NavBar() {
                   width={40}
                   height={40}
                   priority
-                  className="shrink-0 rounded-sm"
+                  className="shrink-0 sm:w-[40px] w-[32px]"
                 />
                 <span className="ml-2 font-medium tracking-tight text-slate-900">
                   ZeeCloud Technologies

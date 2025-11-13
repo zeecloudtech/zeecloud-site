@@ -6,9 +6,8 @@ const items = [
     desc: 'R&D in data and artificial intelligence.',
     href: '/divisions/zeecloud-ai',
     icon: (
-      <svg width="18" height="18" viewBox="0 0 24 24" className="text-sky-700">
-        <path fill="currentColor"
-          d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm1 14h-2v-2h2Zm0-4h-2V6h2Z"/>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 3a5 5 0 0 0-5 5v8a5 5 0 0 0 10 0V8a5 5 0 0 0-5-5Zm0 2a3 3 0 0 1 3 3v8a3 3 0 0 1-6 0V8a3 3 0 0 1 3-3Zm-6 5a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm12 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z"/>
       </svg>
     ),
   },
@@ -17,9 +16,10 @@ const items = [
     desc: 'Smart logistics & fleet optimization platform.',
     href: '/divisions/logicopilot',
     icon: (
-      <svg width="18" height="18" viewBox="0 0 24 24" className="text-emerald-700">
-        <path fill="currentColor"
-          d="M20 8h-3l-2-3H5a1 1 0 0 0-1 1v10h2a3 3 0 0 0 6 0h4a3 3 0 0 0 6 0h2V12a4 4 0 0 0-4-4Zm-9 8a1 1 0 1 1-1-1a1 1 0 0 1 1 1Zm10 0a1 1 0 1 1-1-1a1 1 0 0 1 1 1Z"/>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M3 5h13v10H3zM16 8h3l2 3v4h-5z"/>
+        <circle cx="7" cy="17" r="2"/>
+        <circle cx="17" cy="17" r="2"/>
       </svg>
     ),
   },
@@ -28,9 +28,8 @@ const items = [
     desc: 'IT consulting & cloud integration services.',
     href: '/divisions/solutions',
     icon: (
-      <svg width="18" height="18" viewBox="0 0 24 24" className="text-indigo-700">
-        <path fill="currentColor"
-          d="M19 18a4 4 0 1 0 0-8a5 5 0 0 0-9.7-1.7A4.5 4.5 0 1 0 5 18Z"/>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+         <path d="M7 18h10a4 4 0 0 0 0-8a6 6 0 0 0-11-2A4 4 0 0 0 7 18Z" />
       </svg>
     ),
   },

@@ -35,7 +35,7 @@ export default function Home() {
               href="/divisions"
               className="rounded-xl border border-slate-300 bg-white px-5 py-3 text-slate-900 hover:bg-slate-50 transition-all duration-200 ease-in-out"
             >
-              Discover our solutions
+              See How We Innovate
             </Link>
           </div>
         </div>

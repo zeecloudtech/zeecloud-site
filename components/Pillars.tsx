@@ -29,7 +29,7 @@ export default function Pillars() {
                 href={it.href}
                 className="group rounded-2xl border border-slate-200 hover:border-slate-300/80 hover:shadow-md hover:scale-[1.02] transform transition duration-200 bg-white"
             >
-              <h3 className="text-base font-semibold text-slate-900">{it.title}</h3>
+              <h3 className="text-base font-bold text-slate-900">{it.title}</h3>
               <p className="mt-1 text-sm text-slate-600">{it.desc}</p>
               <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-slate-900">
                 Learn more

@@ -27,13 +27,13 @@ export default function Home() {
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/divisions/logicopilot"
-              className="rounded-xl bg-slate-900 px-5 py-3 text-white hover:bg-slate-700"
+              className="rounded-xl bg-slate-900 px-5 py-3 text-white hover:bg-slate-700 transition-all duration-200 ease-in-out"
             >
               Explore Logicopilot
             </Link>
             <Link
               href="/divisions"
-              className="rounded-xl border border-slate-300 bg-white px-5 py-3 text-slate-900 hover:bg-slate-50"
+              className="rounded-xl border border-slate-300 bg-white px-5 py-3 text-slate-900 hover:bg-slate-50 transition-all duration-200 ease-in-out"
             >
               Discover our solutions
             </Link>

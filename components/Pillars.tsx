@@ -35,16 +35,20 @@ const items = [
     icon: (
       <svg
         viewBox="0 0 24 24"
-        className="h-4 w-4"
-        fill="currentColor"
+        className="h-5 w-5"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
-        {/* truck body */}
-        <rect x="3" y="8" width="10" height="7" rx="1" />
-        {/* cab + trailer */}
-        <path d="M13 10h4l3 3v2h-7z" />
+        {/* trailer */}
+        <rect x="3" y="10" width="9" height="5" rx="1" />
+        {/* cab + front */}
+        <path d="M12 11h3.2a1 1 0 0 1 .8.4L18 14v2h-6z" />
         {/* wheels */}
-        <circle cx="7" cy="18" r="2" />
-        <circle cx="17" cy="18" r="2" />
+        <circle cx="8" cy="18" r="1.7" />
+        <circle cx="17" cy="18" r="1.7" />
       </svg>
     ),
   },

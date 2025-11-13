@@ -6,8 +6,25 @@ const items = [
     desc: 'R&D in data and artificial intelligence.',
     href: '/divisions/zeecloud-ai',
     icon: (
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12 3a5 5 0 0 0-5 5v8a5 5 0 0 0 10 0V8a5 5 0 0 0-5-5Zm0 2a3 3 0 0 1 3 3v8a3 3 0 0 1-6 0V8a3 3 0 0 1 3-3Zm-6 5a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm12 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z"/>
+      <svg
+        viewBox="0 0 24 24"
+        className="h-4 w-4"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        {/* 4 data nodes */}
+        <circle cx="7" cy="7" r="1.6" />
+        <circle cx="17" cy="7" r="1.6" />
+        <circle cx="7" cy="17" r="1.6" />
+        <circle cx="17" cy="17" r="1.6" />
+        {/* connections */}
+        <path d="M8.6 7h6.8" />
+        <path d="M7 8.6v6.8" />
+        <path d="M17 8.6v6.8" />
+        <path d="M8.6 17h6.8" />
       </svg>
     ),
   },
@@ -16,10 +33,18 @@ const items = [
     desc: 'Smart logistics & fleet optimization platform.',
     href: '/divisions/logicopilot',
     icon: (
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M3 5h13v10H3zM16 8h3l2 3v4h-5z"/>
-        <circle cx="7" cy="17" r="2"/>
-        <circle cx="17" cy="17" r="2"/>
+      <svg
+        viewBox="0 0 24 24"
+        className="h-4 w-4"
+        fill="currentColor"
+      >
+        {/* truck body */}
+        <rect x="3" y="8" width="10" height="7" rx="1" />
+        {/* cab + trailer */}
+        <path d="M13 10h4l3 3v2h-7z" />
+        {/* wheels */}
+        <circle cx="7" cy="18" r="2" />
+        <circle cx="17" cy="18" r="2" />
       </svg>
     ),
   },
@@ -28,8 +53,12 @@ const items = [
     desc: 'IT consulting & cloud integration services.',
     href: '/divisions/solutions',
     icon: (
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-         <path d="M7 18h10a4 4 0 0 0 0-8a6 6 0 0 0-11-2A4 4 0 0 0 7 18Z" />
+      <svg
+        viewBox="0 0 24 24"
+        className="h-4 w-4"
+        fill="currentColor"
+      >
+        <path d="M7 18h10a4 4 0 0 0 0-8a6 6 0 0 0-11-2A4 4 0 0 0 7 18Z" />
       </svg>
     ),
   },
@@ -48,7 +77,7 @@ export default function Pillars() {
                 <span className="group block rounded-2xl border border-slate-200 p-5 transition-all hover:border-slate-300/80 hover:shadow-md">
                   
                   {/* Icon */}
-                  <div className="mb-3">
+                  <div className="mb-3 inline-flex h-8 w-8 items-center justify-center rounded-full bg-sky-50 text-sky-700">
                     {it.icon}
                   </div>
               

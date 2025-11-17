@@ -12,10 +12,10 @@ export default function CompanyPage() {
             Company
           </p>
           <h1 className="mt-4 max-w-3xl text-4xl sm:text-5xl font-bold tracking-tight text-slate-900">
-            About Zegnet Technologies Inc.
+            About Zegnet Technologies
           </h1>
           <p className="mt-6 max-w-3xl text-base text-slate-600">
-            Zegnet Technologies Inc. is a Canadian innovation company dedicated to
+            Zegnet Technologies is a Canadian innovation company dedicated to
             bridging AI research and real-world transformation. We design intelligent
             systems that help organizations optimize operations, modernize infrastructure,
             and unlock data-driven growth.

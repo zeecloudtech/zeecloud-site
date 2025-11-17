@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const items = [
   {
-    title: 'ZeeCloud AI',
+    title: 'Zegnet AI',
     desc: 'R&D in data and artificial intelligence.',
     href: '/divisions/zeecloud-ai',
     icon: (
@@ -53,7 +53,7 @@ const items = [
     ),
   },
   {
-    title: 'ZeeCloud Solutions',
+    title: 'Zegnet Cloud Solutions',
     desc: 'IT consulting & cloud integration services.',
     href: '/divisions/solutions',
     icon: (

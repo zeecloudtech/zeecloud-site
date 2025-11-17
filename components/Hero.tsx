@@ -6,7 +6,7 @@ export default function Hero(){
           Transforming Logistics and Enterprise Operations through AI and Cloud Intelligence.
         </h1>
         <p className="text-white/90 mt-4 max-w-2xl">
-          From advanced AI systems to cloud integration and IT consulting, ZeeCloud Technologies helps organizations of all sizes unlock efficiency, connectivity, and innovation.
+          From advanced AI systems to cloud integration and IT consulting, Zegnet Technologies helps organizations of all sizes unlock efficiency, connectivity, and innovation.
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
           <a href="/projects/#logicopilot" className="px-5 py-3 rounded-xl bg-white text-zee-primary font-semibold">Explore Logicopilot</a>

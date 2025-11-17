@@ -7,7 +7,7 @@ export default function LogicopilotPage() {
       <section className="border-b border-slate-200">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
-            ZeeCloud Technologies • Product
+            Zegnet Technologies • Product
           </p>
           <h1 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900">
             Smart logistics and fleet optimization powered by AI.
@@ -20,7 +20,7 @@ export default function LogicopilotPage() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href="mailto:info@zeecloudtechnologies.com?subject=Logicopilot%20demo"
+              href="mailto:info@zegnet.ca?subject=Logicopilot%20demo"
               className="inline-flex items-center rounded-full bg-slate-900 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-800"
             >
               Request a demo

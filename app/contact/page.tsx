@@ -8,10 +8,10 @@ export default function Contact(){
         <div className="grid md:grid-cols-2 gap-6 mt-6">
           <div>
             <div className="text-sm"><strong>Address:</strong> 77 Masters Green Crescent, Brampton, ON</div>
-            <div className="text-sm mt-1"><strong>Email:</strong> <a className="text-zee-blue" href="mailto:info@zeecloudtech.com">info@zeecloudtech.com</a></div>
+            <div className="text-sm mt-1"><strong>Email:</strong> <a className="text-zee-blue" href="mailto:info@zegnet.ca">info@zegnet.ca</a></div>
             <div className="text-sm mt-1"><strong>Phone:</strong> +1 647-534-9285</div>
           </div>
-          <form className="grid gap-3" action="mailto:info@zeecloudtech.com" method="post" encType="text/plain">
+          <form className="grid gap-3" action="mailto:info@zegnet.ca" method="post" encType="text/plain">
             <input required className="border rounded-lg p-3" placeholder="Your name" name="name" />
             <input required className="border rounded-lg p-3" placeholder="Work email" type="email" name="email" />
             <select className="border rounded-lg p-3" name="reason">

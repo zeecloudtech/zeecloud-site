@@ -33,7 +33,7 @@ export default function NavBar() {
                   className="shrink-0"
                 />
                 <span className="ml-2 font-medium tracking-tight text-slate-900">
-                  ZeeCloud Technologies
+                  Zegnet Technologies
                 </span>
           </Link>
 

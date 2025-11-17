@@ -104,7 +104,7 @@ export default function CompanyPage() {
       <section className="py-10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <p className="text-center text-sm text-slate-500">
-            ZeeCloud Technologies Inc. — Innovating today for a smarter, connected
+            Zegnet Technologies Inc. — Innovating today for a smarter, connected
             tomorrow.
           </p>
         </div>

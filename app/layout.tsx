@@ -25,10 +25,10 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: 'ZeeCloud Technologies',
+    title: 'Zegnet Technologies',
     description: 'AI innovation, cloud systems, and logistics intelligence.',
     url: '/',
-    siteName: 'ZeeCloud Technologies',
+    siteName: 'Zegnet Technologies',
     images: [
       { url: '/og-image.png', width: 1200, height: 630, alt: 'ZeeCloud Technologies' },
     ],

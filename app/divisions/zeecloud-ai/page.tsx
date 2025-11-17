@@ -9,7 +9,7 @@ export default function ZeeCloudAI() {
       <section className="relative border-b border-slate-200 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
           <p className="text-xs font-semibold text-slate-500 tracking-tight uppercase">
-            ZeeCloud Technologies • Division
+            Zegnet Technologies • Division
           </p>
 
           <h1 className="mt-4 max-w-3xl text-4xl sm:text-5xl font-bold tracking-tight text-slate-900">
@@ -17,7 +17,7 @@ export default function ZeeCloudAI() {
           </h1>
 
           <p className="mt-6 max-w-2xl text-base text-slate-600">
-            ZeeCloud AI focuses on developing applied AI solutions across logistics,
+            Zegnet AI focuses on developing applied AI solutions across logistics,
             cloud systems, and enterprise operations. We explore real-world problems 
             and build scalable, production-ready intelligence.
           </p>

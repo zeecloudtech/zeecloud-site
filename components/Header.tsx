@@ -3,7 +3,7 @@ export default function Header(){
     <header className="container py-5 flex items-center justify-between text-sm">
       <div className="flex items-center gap-2 font-bold">
         <img src="/logo.svg" className="h-7 w-7" alt="ZeeCloud logo" />
-        <span>ZeeCloud Technologies Inc.</span>
+        <span>Zegnet Technologies </span>
       </div>
       <nav className="hidden md:flex items-center gap-6 text-slate-600">
         <a href="/#about" className="hover:text-slate-900">About</a>

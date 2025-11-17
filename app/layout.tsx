@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 
   // Default <title> and an optional template for subpages later
   title: {
-    default: 'ZeeCloud Technologies – AI, Cloud & Logistics Intelligence',
-    template: '%s · ZeeCloud Technologies',
+    default: 'Zegnet Technologies – AI, Cloud & Logistics Intelligence',
+    template: '%s · Zegnet Technologies',
   },
 
   description:
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     url: '/',
     siteName: 'Zegnet Technologies',
     images: [
-      { url: '/og-image.png', width: 1200, height: 630, alt: 'ZeeCloud Technologies' },
+      { url: '/og-image.png', width: 1200, height: 630, alt: 'Zegnet Technologies' },
     ],
     locale: 'en_CA',
     type: 'website',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'ZeeCloud Technologies',
+    title: 'Zegnet Technologies',
     description: 'AI innovation, cloud systems, and logistics intelligence.',
     images: ['/og-image.png'],
   },

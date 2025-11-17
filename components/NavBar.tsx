@@ -29,7 +29,6 @@ export default function NavBar() {
                alt="Zegnet Technologies"
                width={160}
                height={40}
-               priority
                className="shrink-0"
             />
                 <span className="ml-2 font-medium tracking-tight text-slate-900">

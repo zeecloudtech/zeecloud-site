@@ -9,7 +9,7 @@ export default function SolutionsPage() {
       <section className="border-b border-slate-800 bg-gradient-to-b from-slate-950 to-slate-900">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:py-20 lg:py-24">
           <p className="text-sm font-semibold uppercase tracking-wide text-sky-400">
-            ZeeCloud Solutions
+            Zegnet Cloud Solutions
           </p>
           <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl lg:text-5xl">
             Your Complete IT Department — Secure, Modern, and Built for Growth
@@ -18,7 +18,7 @@ export default function SolutionsPage() {
             We provide enterprise-grade IT services for small businesses,
             logistics operations, and public-sector clients. From cloud and
             identity to networking, security, telephony, and managed services —
-            ZeeCloud gives you stability, security, and simplicity.
+            Zegnet Cloud gives you stability, security, and simplicity.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -42,7 +42,7 @@ export default function SolutionsPage() {
       <section className="border-b border-slate-800 bg-slate-950">
         <div className="mx-auto max-w-6xl px-4 py-12 sm:py-16">
           <h2 className="text-xl font-semibold tracking-tight sm:text-2xl">
-            Why Choose ZeeCloud Solutions?
+            Why Choose Zegnet Solutions?
           </h2>
 
           <div className="mt-8 grid gap-6 md:grid-cols-3">

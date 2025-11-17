@@ -12,18 +12,18 @@ export default function CompanyPage() {
             Company
           </p>
           <h1 className="mt-4 max-w-3xl text-4xl sm:text-5xl font-bold tracking-tight text-slate-900">
-            About ZeeCloud Technologies Inc.
+            About Zegnet Technologies Inc.
           </h1>
           <p className="mt-6 max-w-3xl text-base text-slate-600">
-            ZeeCloud Technologies Inc. is a Canadian innovation company dedicated to
+            Zegnet Technologies Inc. is a Canadian innovation company dedicated to
             bridging AI research and real-world transformation. We design intelligent
             systems that help organizations optimize operations, modernize infrastructure,
             and unlock data-driven growth.
           </p>
           <p className="mt-4 max-w-3xl text-base text-slate-600">
-            Our work spans three integrated divisions: <strong>ZeeCloud AI</strong>{' '}
+            Our work spans three integrated divisions: <strong>Zegnet AI</strong>{' '}
             for research and development, <strong>Logicopilot</strong> as our flagship
-            logistics AI platform, and <strong>ZeeCloud Solutions</strong> for IT
+            logistics AI platform, and <strong>Zegnet Cloud Solutions</strong> for IT
             consulting and enterprise cloud integration.
           </p>
 

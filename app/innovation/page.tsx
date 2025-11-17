@@ -14,7 +14,7 @@ export default function InnovationPage() {
             Turning ideas into deployable AI systems.
           </h1>
           <p className="mt-6 max-w-3xl text-base text-slate-600">
-            Innovation at ZeeCloud spans from early-stage experimentation to production
+            Innovation at Zegnet Cloud spans from early-stage experimentation to production
             rollouts. We prototype quickly, validate with real data, and then migrate
             successful concepts into stable, maintainable platforms.
           </p>

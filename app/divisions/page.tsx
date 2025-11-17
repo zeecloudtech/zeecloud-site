@@ -8,14 +8,14 @@ export default function Divisions() {
       <section className="card p-6 md:p-8">
         <h1 className="text-2xl font-bold">Our Divisions</h1>
         <p className="mt-2 text-sm text-slate-600 max-w-3xl">
-          ZeeCloud Technologies is organized into three connected divisions that
+          Zegnet Technologies is organized into three connected divisions that
           work together to bridge AI research and real-world implementation.
         </p>
 
         <div className="mt-8 grid gap-6 md:grid-cols-3">
-          {/* ZeeCloud AI */}
+          {/* Zegnet AI */}
           <div className="rounded-2xl border border-slate-200 p-5 transition-all hover:border-slate-300/80 hover:shadow-md">
-            <h2 className="text-base font-semibold text-slate-900">ZeeCloud AI</h2>
+            <h2 className="text-base font-semibold text-slate-900">Zegnet AI</h2>
             <p className="mt-2 text-sm text-slate-600">
               R&amp;D in data, artificial intelligence, and cloud automation. Focused
               on prototypes, experiments, and applied research.
@@ -40,9 +40,9 @@ export default function Divisions() {
             </Link>
           </div>
 
-          {/* ZeeCloud Solutions */}
+          {/* Zegnet Cloud Solutions */}
           <div className="rounded-2xl border border-slate-200 p-5 transition-all hover:border-slate-300/80 hover:shadow-md">
-            <h2 className="text-base font-semibold text-slate-900">ZeeCloud Solutions</h2>
+            <h2 className="text-base font-semibold text-slate-900">Zegnet Cloud Solutions</h2>
             <p className="mt-2 text-sm text-slate-600">
               Consulting and cloud integration services that help organizations
               modernize infrastructure and connect their systems.

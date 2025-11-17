@@ -6,7 +6,7 @@ export default function Footer() {
 
           {/* Copyright + Links */}
           <p className="text-slate-500 text-sm">
-            © 2025 ZeeCloud Technologies Inc. •{' '}
+            © 2025 Zegnet Technologies Inc. •{' '}
             <a href="/divisions" className="hover:underline">AI Innovation</a> •{' '}
             <a href="/divisions" className="hover:underline">Cloud Systems</a> •{' '}
             <a href="/divisions" className="hover:underline">Logistics Intelligence</a>
@@ -52,8 +52,8 @@ export default function Footer() {
           {/* Address + Email */}
           <p className="mt-1 text-slate-500 text-sm">
             77 Masters Green Crescent, Brampton, ON •{' '}
-            <a href="mailto:info@zeecloudtechnologies.com" className="hover:underline">
-              info@zeecloudtechnologies.com
+            <a href="mailto:info@zegnet.ca" className="hover:underline">
+              info@zegnet.ca
             </a>
           </p>
 

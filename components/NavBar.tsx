@@ -27,8 +27,8 @@ export default function NavBar() {
             <img
                src="/zegnet-logo.svg"
                alt="Zegnet Technologies"
-               width={160}
-               height={40}
+               width={80}
+               height={60}
                className="shrink-0"
             />
                 <span className="ml-2 font-medium tracking-tight text-slate-900">

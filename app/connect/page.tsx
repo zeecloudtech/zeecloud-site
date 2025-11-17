@@ -26,7 +26,7 @@ export default function ConnectPage() {
               Contact form
             </Link>
             <a
-              href="mailto:info@zeecloudtechnologies.com"
+              href="mailto:info@zegnet.ca"
               className="inline-flex items-center rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-700 hover:bg-slate-50"
             >
               Email us directly

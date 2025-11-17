@@ -470,11 +470,11 @@ export default function SolutionsPage() {
         </div>
       </section>
 
-      {/* Why ZeeCloud & CTA */}
+      {/* Why Zegnet Cloud & CTA */}
       <section className="bg-slate-950">
         <div className="mx-auto max-w-6xl px-4 py-12 sm:py-16">
           <h2 className="text-xl font-semibold tracking-tight sm:text-2xl">
-            Why ZeeCloud Solutions?
+            Why Zegnet Cloud Solutions?
           </h2>
           <div className="mt-6 grid gap-6 md:grid-cols-3">
             <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-5">

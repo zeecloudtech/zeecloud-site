@@ -12,7 +12,7 @@ export default function Home() {
         <HeroBackdrop />
 
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
-          <p className="text-sm font-medium text-sky-700">ZeeCloud Technologies Inc.</p>
+          <p className="text-sm font-medium text-sky-700">Zegnet Technologies Inc.</p>
 
           <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight leading-tight">
             Transforming Logistics and Enterprise Operations

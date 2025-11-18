@@ -28,7 +28,9 @@ export default function NavBar() {
               src="/assets/zegnet-header-icon.svg?v=2"
               alt="Zegnet Technologies"
               className="h-8 w-auto shrink-0"
+              style={{ minWidth: '32px' }}
             />
+           
             <span className="hidden sm:inline ml-1 font-medium tracking-tight text-slate-900">
               Zegnet Technologies
             </span>

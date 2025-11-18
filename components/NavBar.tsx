@@ -25,7 +25,7 @@ export default function NavBar() {
           {/* Logo + wordmark */}
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/assets/zegnet-logo-512.png"
+              src="/assets/zegnet-logo.svg"
               alt="Zegnet Technologies"
               height={36}
               width={36}

@@ -25,12 +25,12 @@ export default function NavBar() {
           {/* Logo + wordmark */}
           <Link href="/" className="flex items-center gap-2">
             <img
-              src="/assets/zegnet-header-icon.svg?v=2"
+              src="/assets/zegnet-header-icon.svg?v=3"
               alt="Zegnet Technologies"
               className="h-10 w-auto shrink-0"
-              style={{ minWidth: '32px' }}
+              style={{ minWidth: '40px' }}
             />
-           
+          
             <span className="hidden sm:inline ml-1 font-medium tracking-tight text-slate-900">
               Zegnet Technologies
             </span>

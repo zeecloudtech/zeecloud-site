@@ -24,16 +24,16 @@ export default function NavBar() {
         <div className="flex h-14 items-center justify-between">
           {/* Logo + wordmark */}
           <Link href="/" className="flex items-center gap-2">
-            <Image
-              src="/assets/zegnet-logo.svg"
+            <img
+              src="/assets/zegnet-header-icon.svg"
               alt="Zegnet Technologies"
-              height={36}
-              width={36}
-              className="shrink-0"
-              priority
+              className="h-7 w-auto shrink-0"
             />
+            <span className="hidden sm:inline ml-1 font-medium tracking-tight text-slate-900">
+              Zegnet Technologies
+            </span>
           </Link>
-          
+         
             <span className="ml-2 font-medium tracking-tight text-slate-900">
               Zegnet Technologies
             </span>

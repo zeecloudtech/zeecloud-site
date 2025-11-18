@@ -4,22 +4,22 @@
   role="img"
   aria-label="Zegnet Technologies logo mark"
 >
-  <!-- Z-shaped connection -->
+  <!-- Z stroke (stronger contrast + thicker) -->
   <path
-    d="M6 8 H26 L6 24 H26"
+    d="M6 7 H26 L6 25 H26"
     fill="none"
     stroke="#0f172a"
-    stroke-width="2.4"
+    stroke-width="3"
     stroke-linecap="round"
     stroke-linejoin="round"
   />
 
-  <!-- Corner nodes (light grey) -->
-  <circle cx="6" cy="8"  r="2.4" fill="#d4d4d8" />
-  <circle cx="26" cy="8" r="2.4" fill="#d4d4d8" />
-  <circle cx="6" cy="24" r="2.4" fill="#d4d4d8" />
-  <circle cx="26" cy="24" r="2.4" fill="#d4d4d8" />
+  <!-- Corner nodes (dark navy for visibility) -->
+  <circle cx="6" cy="7"  r="3" fill="#0f172a" />
+  <circle cx="26" cy="7" r="3" fill="#0f172a" />
+  <circle cx="6" cy="25" r="3" fill="#0f172a" />
+  <circle cx="26" cy="25" r="3" fill="#0f172a" />
 
-  <!-- Accent node on the diagonal -->
-  <circle cx="16" cy="16" r="3" fill="#22c7f0" />
+  <!-- Accent node -->
+  <circle cx="16" cy="15.5" r="3.5" fill="#22c7f0" />
 </svg>

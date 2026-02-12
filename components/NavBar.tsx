@@ -1,16 +1,15 @@
 "use client";
 
-import Link from 'next/link';
-import Image from 'next/image';
-import { useState } from 'react';
-import { usePathname } from 'next/navigation';
+import Link from "next/link";
+import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 const links = [
-  { href: '/company',   label: 'Company' },
-  { href: '/divisions', label: 'Our Divisions' },
-  { href: '/projects',  label: 'Innovation' },
-  { href: '/insights',  label: 'Research' },
-  { href: '/contact',   label: 'Connect' },
+  { href: "/company", label: "Company" },
+  { href: "/divisions", label: "Our Divisions" },
+  { href: "/projects", label: "Innovation" },
+  { href: "/insights", label: "Research" },
+  { href: "/contact", label: "Connect" },
 ];
 
 export default function NavBar() {
@@ -28,15 +27,9 @@ export default function NavBar() {
               src="/assets/zegnet-header-icon.svg?v=3"
               alt="Zegnet Technologies"
               className="h-10 w-auto shrink-0"
-              style={{ minWidth: '40px' }}
+              style={{ minWidth: "40px" }}
             />
-          
             <span className="hidden sm:inline ml-1 font-medium tracking-tight text-slate-900">
-              Zegnet Technologies
-            </span>
-          </Link>
-         
-            <span className="ml-2 font-medium tracking-tight text-slate-900">
               Zegnet Technologies
             </span>
           </Link>
@@ -48,7 +41,7 @@ export default function NavBar() {
                 key={href}
                 href={href}
                 className={`transition-colors hover:text-slate-900 ${
-                  pathname === href ? 'text-slate-900 font-medium' : 'text-slate-600'
+                  pathname === href ? "text-slate-900 font-medium" : "text-slate-600"
                 }`}
               >
                 {label}
@@ -65,7 +58,7 @@ export default function NavBar() {
 
           {/* mobile menu button */}
           <button
-            onClick={() => setOpen(!open)}
+            onClick={() => setOpen((v) => !v)}
             className="inline-flex items-center justify-center rounded-md p-2 text-slate-700 hover:bg-slate-100 md:hidden"
             aria-label="Toggle menu"
           >
@@ -74,11 +67,7 @@ export default function NavBar() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth={2}
-                d={
-                  open
-                    ? 'M6 18L18 6M6 6l12 12'                 // X
-                    : 'M4 6h16M4 12h16M4 18h16'               // Hamburger
-                }
+                d={open ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
               />
             </svg>
           </button>
@@ -96,12 +85,13 @@ export default function NavBar() {
                   href={href}
                   onClick={() => setOpen(false)}
                   className={`py-2 ${
-                    pathname === href ? 'text-slate-900 font-medium' : 'text-slate-600'
+                    pathname === href ? "text-slate-900 font-medium" : "text-slate-600"
                   }`}
                 >
                   {label}
                 </Link>
               ))}
+
               <Link
                 href="/contact"
                 onClick={() => setOpen(false)}

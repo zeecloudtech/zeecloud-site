@@ -12,19 +12,19 @@ export default function CompanyPage() {
             Company
           </p>
           <h1 className="mt-4 max-w-3xl text-4xl sm:text-5xl font-bold tracking-tight text-slate-900">
-            About Zegnet Technologies
+            About ZeeCloud Technologies
           </h1>
           <p className="mt-6 max-w-3xl text-base text-slate-600">
-            Zegnet Technologies is a Canadian innovation company dedicated to
-            bridging AI research and real-world transformation. We design intelligent
-            systems that help organizations optimize operations, modernize infrastructure,
-            and unlock data-driven growth.
+            ZeeCloud Technologies is a Canadian AI company building intelligent platforms
+            and enterprise solutions for logistics, transportation, and operational
+            industries across Canada. We bridge applied AI research and real-world
+            implementation — turning complex operational data into measurable results.
           </p>
           <p className="mt-4 max-w-3xl text-base text-slate-600">
-            Our work spans three integrated divisions: <strong>Zegnet AI</strong>{' '}
-            for research and development, <strong>Logicopilot</strong> as our flagship
-            logistics AI platform, and <strong>Zegnet Cloud Solutions</strong> for IT
-            consulting and enterprise cloud integration.
+            Our flagship platform, <strong>Logicopilot</strong>, is an AI-powered
+            operations intelligence system built for Canadian transportation carriers.
+            We also deliver applied AI consulting, cloud integration, and systems
+            modernization for enterprise clients across Canada.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -35,10 +35,10 @@ export default function CompanyPage() {
               Talk to us
             </Link>
             <Link
-              href="/divisions/logicopilot"
+              href="/platform"
               className="inline-flex items-center rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-700 hover:bg-slate-50"
             >
-              Explore our divisions
+              Explore Logicopilot
             </Link>
           </div>
         </div>
@@ -104,8 +104,7 @@ export default function CompanyPage() {
       <section className="py-10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <p className="text-center text-sm text-slate-500">
-            Zegnet Technologies Inc. — Innovating today for a smarter, connected
-            tomorrow.
+            ZeeCloud Technologies Inc. — Applied AI for Canadian Enterprise.
           </p>
         </div>
       </section>

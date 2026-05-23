@@ -5,11 +5,10 @@ import { useState } from "react";
 import { usePathname } from "next/navigation";
 
 const links = [
-  { href: "/company", label: "Company" },
-  { href: "/divisions", label: "Our Divisions" },
-  { href: "/projects", label: "Innovation" },
-  { href: "/insights", label: "Research" },
-  { href: "/contact", label: "Connect" },
+  { href: "/platform", label: "Platform" },
+  { href: "/solutions", label: "Solutions" },
+  { href: "/company", label: "About" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function NavBar() {
@@ -25,12 +24,12 @@ export default function NavBar() {
           <Link href="/" className="flex items-center gap-2">
             <img
               src="/assets/zegnet-header-icon.svg?v=3"
-              alt="Zegnet Technologies"
+              alt="ZeeCloud Technologies"
               className="h-10 w-auto shrink-0"
               style={{ minWidth: "40px" }}
             />
             <span className="hidden sm:inline ml-1 font-medium tracking-tight text-slate-900">
-              Zegnet Technologies
+              ZeeCloud Technologies
             </span>
           </Link>
 
@@ -52,7 +51,7 @@ export default function NavBar() {
               href="/contact"
               className="rounded-xl bg-slate-900 px-3 py-1.5 text-white transition-colors hover:bg-slate-700"
             >
-              Work with us
+              Get in Touch
             </Link>
           </nav>
 
@@ -97,7 +96,7 @@ export default function NavBar() {
                 onClick={() => setOpen(false)}
                 className="mt-2 rounded-xl bg-slate-900 px-3 py-2 text-center text-white"
               >
-                Work with us
+                Get in Touch
               </Link>
             </div>
           </div>

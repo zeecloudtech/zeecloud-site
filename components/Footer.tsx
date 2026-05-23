@@ -6,15 +6,15 @@ export default function Footer() {
 
           {/* Copyright + Links */}
           <p className="text-slate-500 text-sm">
-            © 2025 Zegnet Technologies Inc. •{' '}
-            <a href="/divisions" className="hover:underline">AI Innovation</a> •{' '}
-            <a href="/divisions" className="hover:underline">Cloud Systems</a> •{' '}
-            <a href="/divisions" className="hover:underline">Logistics Intelligence</a>
+            © 2025 ZeeCloud Technologies Inc. •{' '}
+            <a href="/platform" className="hover:underline">Platform</a> •{' '}
+            <a href="/solutions" className="hover:underline">Solutions</a> •{' '}
+            <a href="/company" className="hover:underline">About</a>
           </p>
 
-          {/* ⭐ Add social icons RIGHT HERE */}
+          {/* Social Icons */}
           <div className="flex items-center gap-4 text-slate-500">
-            <a
+            
               href="https://www.linkedin.com/company/zeecloud-technologies"
               target="_blank"
               rel="noreferrer"
@@ -26,7 +26,7 @@ export default function Footer() {
               </svg>
             </a>
 
-            <a
+            
               href="https://github.com/zeecloudtech"
               target="_blank"
               rel="noreferrer"
@@ -38,8 +38,8 @@ export default function Footer() {
               </svg>
             </a>
 
-            <a
-              href="mailto:info@zeecloudtechnologies.com"
+            
+              href="mailto:zegaye@zeecloudtech.com"
               className="hover:text-slate-700"
               aria-label="Email"
             >
@@ -49,11 +49,11 @@ export default function Footer() {
             </a>
           </div>
 
-          {/* Address + Email */}
+          {/* Email only — no address */}
           <p className="mt-1 text-slate-500 text-sm">
-            77 Masters Green Crescent, Brampton, ON •{' '}
-            <a href="mailto:info@zegnet.ca" className="hover:underline">
-              info@zegnet.ca
+            Brampton, Ontario, Canada •{' '}
+            <a href="mailto:zegaye@zeecloudtech.com" className="hover:underline">
+              zegaye@zeecloudtech.com
             </a>
           </p>
 

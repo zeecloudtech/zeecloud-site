@@ -7,30 +7,27 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
-  // Ensures relative URLs (e.g. /og-image.png) are resolved to full absolute URLs
-  metadataBase: new URL('https://lemon-meadow-09e594a0f.3.azurestaticapps.net'),
+  metadataBase: new URL('https://www.zegnet.ca'),
 
-  // Default <title> and an optional template for subpages later
   title: {
-    default: 'Zegnet Technologies – AI, Cloud & Logistics Intelligence',
-    template: '%s · Zegnet Technologies',
+    default: 'ZeeCloud Technologies – Applied AI for Canadian Enterprise',
+    template: '%s · ZeeCloud Technologies',
   },
 
   description:
-    'We bridge AI research and real-world implementation—helping organizations automate logistics, modernize IT systems, and achieve digital transformation.',
+    'ZeeCloud Technologies builds applied AI solutions for Canadian enterprise — starting with Logicopilot, an intelligent operations platform for the transportation industry.',
 
-  // Good for SEO; lets search engines know your canonical URL
   alternates: {
     canonical: '/',
   },
 
   openGraph: {
-    title: 'Zegnet Technologies',
-    description: 'AI innovation, cloud systems, and logistics intelligence.',
+    title: 'ZeeCloud Technologies',
+    description: 'Applied AI for Canadian Enterprise. Cloud-native. Built for Canada.',
     url: '/',
-    siteName: 'Zegnet Technologies',
+    siteName: 'ZeeCloud Technologies',
     images: [
-      { url: '/og-image.png', width: 1200, height: 630, alt: 'Zegnet Technologies' },
+      { url: '/og-image.png', width: 1200, height: 630, alt: 'ZeeCloud Technologies' },
     ],
     locale: 'en_CA',
     type: 'website',
@@ -38,16 +35,14 @@ export const metadata: Metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Zegnet Technologies',
-    description: 'AI innovation, cloud systems, and logistics intelligence.',
+    title: 'ZeeCloud Technologies',
+    description: 'Applied AI for Canadian Enterprise. Cloud-native. Built for Canada.',
     images: ['/og-image.png'],
   },
 
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',
-    // Optional if you add one later:
-    // apple: '/apple-touch-icon.png',
   },
 };
 

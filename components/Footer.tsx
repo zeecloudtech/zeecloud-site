@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
 
           <p className="text-slate-500 text-sm">
-            {"© 2025 ZeeCloud Technologies Inc. · "}
+            {"© 2026 ZeeCloud Technologies Inc. · "}
             <a href="/platform" className="hover:underline">Platform</a>
             {" · "}
             <a href="/solutions" className="hover:underline">Solutions</a>
@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="flex items-center gap-4 text-slate-500">
             <a href="https://www.linkedin.com/company/zeecloud-technologies" target="_blank" rel="noreferrer" className="hover:text-slate-700" aria-label="LinkedIn">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M6.94 6.5A1.94 1.94 0 1 1 5 4.56 1.94 1.94 0 0 1 6.94 6.5ZM7 8.33H4.88V19H7ZM13.06 8.09a4.44 4.44 0 0 0-3.2 1.35V8.33H7v10.64h2.86v-5.7a2.38 2.38 0 0 1 2.2-1.51c1.17 0 1.9.78 1.9 2.1V19H17V13c0-2.94-1.57-4.91-3.94-4.91Z"/>
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
               </svg>
             </a>
             <a href="https://github.com/zeecloudtech" target="_blank" rel="noreferrer" className="hover:text-slate-700" aria-label="GitHub">

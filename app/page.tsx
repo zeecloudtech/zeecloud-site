@@ -71,8 +71,7 @@ export default function Home() {
                 AI Decision Intelligence
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed">
-                Building production-grade AI platforms that deliver measurable
-                operational intelligence for enterprise environments.
+                Machine learning models trained on your operational data — delivering prediction, anomaly detection, and decision support at enterprise scale.
               </p>
             </div>
             <div className="p-6 rounded-2xl border border-slate-200 bg-white">

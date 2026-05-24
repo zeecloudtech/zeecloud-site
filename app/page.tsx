@@ -13,7 +13,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
 
           <p className="text-sm font-medium text-sky-700 tracking-widest uppercase mb-4">
-            ZeeCloud Technologies Inc.
+            ZeeCloud Technologies
           </p>
 
           <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight leading-tight">

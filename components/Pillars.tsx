@@ -3,7 +3,7 @@ import Link from 'next/link';
 const items = [
   {
     title: 'Logicopilot',
-    desc: 'AI-powered operations platform for Canadian transportation and logistics enterprises.',
+    desc: 'AI-powered operations intelligence platform. Predictive dispatch, billing acceleration, and anomaly detection for Canadian carriers.',
     href: '/platform',
     icon: (
       <svg
@@ -24,7 +24,7 @@ const items = [
   },
   {
     title: 'AI & Data Solutions',
-    desc: 'Applied machine learning and predictive analytics tailored for enterprise operations.',
+    desc: 'Machine learning models trained on your operational data — delivering prediction, anomaly detection, and decision support at enterprise scale.',
     href: '/solutions',
     icon: (
       <svg

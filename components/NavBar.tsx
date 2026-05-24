@@ -25,7 +25,7 @@ export default function NavBar() {
             <img
               src="/assets/zeecloud-icon.svg"
               alt="ZeeCloud Technologies"
-              className="h-10 w-auto shrink-0"
+              className="h-11 w-auto shrink-0"
               style={{ minWidth: "40px" }}
             />
             <span className="hidden sm:inline ml-1 font-medium tracking-tight text-slate-900">

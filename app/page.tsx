@@ -10,7 +10,7 @@ export default function Home() {
       <section className="relative">
         <HeroBackdrop />
 
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
 
           <p className="text-sm font-medium text-sky-700 tracking-widest uppercase mb-4">
             ZeeCloud Technologies
@@ -68,7 +68,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="p-6 rounded-2xl border border-slate-200 bg-white">
               <h3 className="text-lg font-semibold text-slate-900 mb-3">
-                AI Platform Development
+                AI Decision Intelligence
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed">
                 Building production-grade AI platforms that deliver measurable
@@ -77,7 +77,7 @@ export default function Home() {
             </div>
             <div className="p-6 rounded-2xl border border-slate-200 bg-white">
               <h3 className="text-lg font-semibold text-slate-900 mb-3">
-                Enterprise Cloud & Data
+                Enterprise Data Infrastructure
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed">
                 Cloud-native architecture, data pipelines, and infrastructure
@@ -86,7 +86,7 @@ export default function Home() {
             </div>
             <div className="p-6 rounded-2xl border border-slate-200 bg-white">
               <h3 className="text-lg font-semibold text-slate-900 mb-3">
-                Technology Deployment
+                Logistics Intelligence Platform
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed">
                 Hands-on implementation, systems integration, and enterprise

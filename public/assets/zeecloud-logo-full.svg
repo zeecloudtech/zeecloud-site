@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 100" fill="none">
+  <defs>
+    <linearGradient id="zg" x1="14" y1="81" x2="86" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#0d2fb5"/>
+      <stop offset="50%"  stop-color="#1a5af5"/>
+      <stop offset="100%" stop-color="#00ccff"/>
+    </linearGradient>
+    <linearGradient id="tg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0d2fb5"/>
+      <stop offset="50%"  stop-color="#1a5af5"/>
+      <stop offset="100%" stop-color="#00ccff"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- MARK (icon portion) -->
+  <line x1="50" y1="12" x2="86" y2="38" stroke="url(#zg)" stroke-width="1.4" opacity="0.4" stroke-linecap="round"/>
+  <line x1="86" y1="38" x2="72" y2="81" stroke="url(#zg)" stroke-width="1.4" opacity="0.4" stroke-linecap="round"/>
+  <line x1="28" y1="81" x2="14" y2="38" stroke="url(#zg)" stroke-width="1.4" opacity="0.4" stroke-linecap="round"/>
+  <line x1="14" y1="38" x2="50" y2="12" stroke="url(#zg)" stroke-width="1.4" opacity="0.4" stroke-linecap="round"/>
+  <line x1="14" y1="38" x2="86" y2="38" stroke="url(#zg)" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="86" y1="38" x2="28" y2="81" stroke="url(#zg)" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="28" y1="81" x2="72" y2="81" stroke="url(#zg)" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="50" cy="12" r="4"  fill="white"      opacity="0.85" filter="url(#glow)"/>
+  <circle cx="86" cy="38" r="5"  fill="url(#zg)"   filter="url(#glow)"/>
+  <circle cx="72" cy="81" r="5"  fill="url(#zg)"   filter="url(#glow)"/>
+  <circle cx="28" cy="81" r="5"  fill="url(#zg)"   filter="url(#glow)"/>
+  <circle cx="14" cy="38" r="5"  fill="url(#zg)"   filter="url(#glow)"/>
+
+  <!-- Divider -->
+  <line x1="108" y1="16" x2="108" y2="84" stroke="#334155" stroke-width="0.8" opacity="0.35"/>
+
+  <!-- WORDMARK -->
+  <text font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif"
+        font-weight="700" font-size="40" letter-spacing="-0.5">
+    <tspan x="122" y="63" fill="white">Zee</tspan>
+    <tspan fill="url(#tg)">Cloud</tspan>
+  </text>
+  <text x="124" y="81"
+        font-family="system-ui,-apple-system,sans-serif"
+        font-size="9.5" font-weight="500"
+        letter-spacing="4.5" fill="white" opacity="0.6">
+    TECHNOLOGIES
+  </text>
+</svg>

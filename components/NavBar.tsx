@@ -23,7 +23,7 @@ export default function NavBar() {
           {/* Logo + wordmark */}
           <Link href="/" className="flex items-center gap-2">
             <img
-              src="/assets/zegnet-header-icon.svg?v=3"
+              src="/assets/zeecloud-icon.svg"
               alt="ZeeCloud Technologies"
               className="h-10 w-auto shrink-0"
               style={{ minWidth: "40px" }}

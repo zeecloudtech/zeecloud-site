@@ -40,9 +40,12 @@ export const metadata: Metadata = {
     images: ['/og-image.png'],
   },
 
+  manifest: '/manifest.json',
+  themeColor: '#0c1424',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',
+    apple: '/icons/icon-192.png',
   },
 };
 

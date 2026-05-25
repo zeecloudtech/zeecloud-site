@@ -66,7 +66,7 @@ export default function ContactPage() {
                 method="POST"
               >
                 <input type="hidden" name="_subject" value="New inquiry — ZeeCloud Technologies" />
-                <input type="hidden" name="_next" value="https://www.zegnet.ca/contact" />
+                <input type="hidden" name="_next" value="https://www.zeecloudtech.com/contact" />
                 <div className="grid gap-4 sm:grid-cols-2">
                   <input required name="name" placeholder="Your name"
                     className="rounded-xl border border-slate-200 px-4 py-3 text-sm placeholder:text-slate-400 focus:border-sky-400 focus:outline-none" />

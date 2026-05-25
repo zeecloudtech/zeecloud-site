@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.zegnet.ca'),
+  metadataBase: new URL('https://www.zeecloudtech.com'),
 
   title: {
     default: 'ZeeCloud Technologies – Applied AI for Canadian Enterprise',
